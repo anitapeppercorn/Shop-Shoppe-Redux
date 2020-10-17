@@ -2,11 +2,11 @@
 ### Introduction
 Github Repository
 ``` text 
-anitapeppercorn/Shop-Shoppe-Redux
+https://github.com/anitapeppercorn/Shop-Shoppe-Redux
 ```
 App is Deployed at:
 ``` text
-
+https://agile-eyrie-94042.herokuapp.com
 
 ```
 
