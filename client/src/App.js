@@ -39,8 +39,8 @@ function App() {
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/orderHistory" component={OrderHistory} />
               <Route exact path="/products/:id" component={Detail} />
-              <Route component={NoMatch} />
               <Route exact path="/success" component={Success} />
+              <Route component={NoMatch} />
             </Switch>
           </StoreProvider>
         </div>
