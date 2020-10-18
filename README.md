@@ -10,7 +10,7 @@ https://agile-eyrie-94042.herokuapp.com
 
 ```
 
-I built a full stack - MERN Stack e-commerce site with Stripe for Payments. Then refactored this code. To use and deployed this application to Heroku. 
+I built a full stack - MERN Stack e-commerce site with Stripe for Payments. Then refactored this code and deployed this application to Heroku. 
 
 
 ## Contents
@@ -24,7 +24,12 @@ I built a full stack - MERN Stack e-commerce site with Stripe for Payments. Then
 
 ## Description
 
-I have read and watched redux tutorials to refactor code from using primarily using react hooks and context API to incorporating Redux
+I have read and watched redux tutorials to refactor code from using primarily using react hooks and context API to incorporating Redux, to use Redux to manage global state instead of the Context API. Resources I used are linked here:
+1. Understanding context API - https://reactjs.org/docs/context.html#when-to-use-context
+2. Basic tutorial on react-redux - https://react-redux.js.org/introduction/basic-tutorial
+3. npm package documentation - https://www.npmjs.com/package/react-redux
+4. react-redux tutorial - https://www.youtube.com/watch?v=2lxCaLJ2Rbk&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK&index=5
+5. Redux basics - https://redux.js.org/basics/basic-tutorial
 
 ### App Screenshot
 ![](client/src/assets/images/shoppe.png)
@@ -54,8 +59,8 @@ THEN I find that the app uses Redux instead of the Context API
 
 ## Concepts
 
-In addtition to Redux, this project I applied the following skills:
-	”@apollo/react-hooks": "^3.1.3",
+In addtition to React-Redux and Redux, this project I applied the following skills:
+    ”@apollo/react-hooks": "^3.1.3",
     "@stripe/stripe-js": "^1.10.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
